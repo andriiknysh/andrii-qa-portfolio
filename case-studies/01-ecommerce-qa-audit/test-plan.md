@@ -29,14 +29,14 @@ Manual QA audit of a public demo e-commerce flow from homepage through product d
 - Test account or demo flow is allowed by the site.
 - Browser, OS, device, and screen size are recorded.
 - Screenshot folder is prepared.
-- Loom recording plan is prepared.
+- Screen recording is optional; no Loom recording was captured in the 2026-05-23 evidence run.
 - Demo/test payment data rules are understood before testing payment behavior.
 
 ## Exit Criteria
 
 - Core user flows have actual results recorded.
 - Screenshots or Loom evidence are attached where available.
-- Bug reports include reproduction steps, expected result, actual result, impact, and suggested fix.
+- Any bug reports include reproduction steps, expected result, actual result, impact, and suggested fix.
 - Usability findings include impact and recommendation.
 - Release-readiness summary states overall status, major risks, minor risks, and next steps.
 
@@ -50,7 +50,7 @@ Use manual scenario-based testing. Start as a first-time user, follow the main s
 - Browser DevTools when needed
 - GitHub Markdown
 - Screenshots
-- Loom
+- Loom, if recorded
 - Google Sheets or Markdown tables for test tracking
 
 ## Deliverables

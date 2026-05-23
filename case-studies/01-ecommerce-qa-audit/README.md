@@ -1,33 +1,33 @@
 # Case Study 01: E-commerce QA Audit
 
-## Purpose
+## Overview
 
-This is the flagship case study for a full manual QA audit of a public demo e-commerce flow. It is designed to show planning, test execution structure, bug-report quality, usability review, evidence handling, and release-readiness judgment.
+This is a limited manual QA review of [Automation Exercise](https://automationexercise.com), a public demo e-commerce practice site. The review covers the observed browse, product detail, cart, signup gate, demo signup, checkout, payment, and order-confirmation path.
+
+## Case Study Details
+
+- **Site tested:** https://automationexercise.com
+- **Test type:** Manual functional QA plus exploratory QA notes
+- **Scope:** E-commerce browse/cart/signup/checkout/order confirmation path
+- **Evidence:** Screenshots `01` through `10` in [screenshots](screenshots/README.md)
+- **Recording:** Not available
+- **Status:** Evidence-backed case study, limited scope
 
 ## Evidence Status
 
-Ready for real evidence collection. Tested URL, date, environment, screenshots, Loom link, actual test results, and final findings still need to be added.
+Real browser evidence has been collected for the tested happy path. No confirmed functional bugs were found in that tested path. Two low-severity usability observations and one ad-distraction observation were recorded for follow-up.
 
-## Planned Coverage
+## Executed Flows
 
-- Homepage and product discovery
-- Product listing and filtering/sorting behavior
-- Product detail page
-- Add-to-cart flow
-- Cart quantity updates and remove-item behavior
-- Signup and login entry points
-- Required-field validation
-- Email validation
-- Address and shipping form behavior
-- Checkout review
-- Payment validation using demo/test data only
-- Order confirmation or blocked-step messaging
-- Mobile responsiveness
-- Error messaging and recovery
-- Navigation/back behavior
-- Data persistence after validation errors
-- Empty-cart state
-- Support/help visibility
+| Flow | Status | Evidence |
+| --- | --- | --- |
+| Homepage -> products | Pass | `01-homepage.png`, `02-products.png` |
+| Product detail | Pass | `03-product-detail.png` |
+| Add to cart | Pass | `04-cart.png` |
+| Checkout signup wall | Pass | `05-checkout-signup-wall.png` |
+| Signup negative validation | Needs Review | `06-signup-invalid-data.png` |
+| Signup valid demo path | Pass | `07-signup-valid-data.png` |
+| Checkout/payment/order confirmation | Pass with usability note | `08-checkout-form.png`, `09-payment-screen.png`, `10-confirmation-or-blocked-step.png` |
 
 ## Deliverables
 
@@ -41,13 +41,13 @@ Ready for real evidence collection. Tested URL, date, environment, screenshots, 
 - [Evidence log](evidence.md)
 - [Screenshots folder](screenshots/README.md)
 
-## Next Evidence To Add
+## Remaining Evidence Gaps
 
-- Tested site
-- Date tested
-- Browser, OS, device, and screen size
-- Loom walkthrough
-- Screenshots
-- Actual results for each test case
-- Passed, failed, blocked, and needs-review counts
-- Top risks and final recommendation
+- No Loom recording was captured.
+- Quantity update behavior was not tested.
+- Remove-item behavior was not tested.
+- Existing-login behavior was not tested.
+- Mobile responsiveness was not tested.
+- Invoice download was not tested.
+- Cross-browser coverage was not tested.
+- Console errors were observed but not investigated as user-facing issues.

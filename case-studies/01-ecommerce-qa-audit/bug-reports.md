@@ -1,75 +1,15 @@
 # E-commerce QA Audit Bug Reports
 
-Bug reports will be updated after real testing. The entries below are structured report slots, not confirmed defects.
+No confirmed functional bugs were found in the tested happy path.
 
-## BUG-001: [Title to be added]
+This file intentionally does not invent defects. The observed follow-up items are documented in [usability findings](usability-findings.md) as low-severity needs-confirmation observations, not confirmed bugs.
 
-**Severity:** [High/Medium/Low]
+## Confirmed Functional Bugs
 
-**Priority:** [High/Medium/Low]
+None found in the limited tested path.
 
-**Environment:** [browser, OS, device]
+## Notes
 
-**Steps to Reproduce:**
-
-1. [to be added]
-2. [to be added]
-3. [to be added]
-
-**Expected Result:** [to be added]
-
-**Actual Result:** To be recorded during real test.
-
-**Impact:** [to be added]
-
-**Suggested Fix:** [to be added]
-
-**Evidence:** [screenshot or Loom timestamp to be added]
-
-## BUG-002: [Title to be added]
-
-**Severity:** [High/Medium/Low]
-
-**Priority:** [High/Medium/Low]
-
-**Environment:** [browser, OS, device]
-
-**Steps to Reproduce:**
-
-1. [to be added]
-2. [to be added]
-3. [to be added]
-
-**Expected Result:** [to be added]
-
-**Actual Result:** To be recorded during real test.
-
-**Impact:** [to be added]
-
-**Suggested Fix:** [to be added]
-
-**Evidence:** [screenshot or Loom timestamp to be added]
-
-## BUG-003: [Title to be added]
-
-**Severity:** [High/Medium/Low]
-
-**Priority:** [High/Medium/Low]
-
-**Environment:** [browser, OS, device]
-
-**Steps to Reproduce:**
-
-1. [to be added]
-2. [to be added]
-3. [to be added]
-
-**Expected Result:** [to be added]
-
-**Actual Result:** To be recorded during real test.
-
-**Impact:** [to be added]
-
-**Suggested Fix:** [to be added]
-
-**Evidence:** [screenshot or Loom timestamp to be added]
+- The tested flow covered one product, one cart item, demo signup, checkout review, fake/demo payment fields, and order confirmation.
+- No item was marked failed because the evidence did not support a confirmed defect.
+- Quantity update, remove-item behavior, existing login, mobile, invoice download, and cross-browser behavior still require testing before broader release judgment.

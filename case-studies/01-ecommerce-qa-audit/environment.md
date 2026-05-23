@@ -4,23 +4,24 @@
 
 | Field | Value |
 | --- | --- |
-| Tested URL | [to be added] |
-| Date tested | [to be added] |
-| Browser | [to be added] |
-| Browser version | [to be added] |
-| OS | [to be added] |
-| Device | [to be added] |
-| Screen size | [to be added] |
-| Network | [to be added] |
+| Tested URL | https://automationexercise.com |
+| Date tested | 2026-05-23, approximately 15:35-15:42 EDT |
+| Browser | Google Chrome |
+| Browser version | 148.0.7778.179 |
+| OS | macOS 26.4.1 |
+| Device | Mac, arm64 |
+| Screen size | Viewport 1728 x 944; screen 1728 x 1117; device pixel ratio 2 |
+| Network | Not captured |
 | Tester | Andrii Knysh |
+| Evidence executor | Codex browser session under operator authorization |
 
 ## Optional Comparison Environments
 
 | Environment | Browser/Device | Purpose | Status |
 | --- | --- | --- | --- |
-| Desktop primary | [to be added] | Main full-flow audit | Not Run |
-| Mobile viewport | [to be added] | Responsive layout and tap-target review | Not Run |
-| Secondary browser | [to be added] | Basic cross-browser check | Not Run |
+| Desktop primary | Chrome on macOS | Main limited checkout-path audit | Completed |
+| Mobile viewport | Not captured | Responsive layout and tap-target review | Not Tested |
+| Secondary browser | Not captured | Basic cross-browser check | Not Tested |
 
 ## Data Rules
 
@@ -28,3 +29,6 @@
 - Do not use private payment information.
 - Do not publish private account details.
 - Redact emails, addresses, phone numbers, and order identifiers before committing screenshots.
+- This run used throwaway/demo data only.
+- No real payment, private account, private inbox, or real purchase was used.
+- Demo account was not deleted because deletion was not authorized.

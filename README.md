@@ -4,7 +4,7 @@ This repository contains manual QA and product-support case-study materials: tes
 
 ## Status
 
-Portfolio v2 in progress - structured for real evidence collection. Current materials include templates and sample workflows. Real case studies will be updated with tested URLs, dates, environments, screenshots, Loom links, actual results, and findings after testing is completed.
+Portfolio v2 in progress. The e-commerce QA audit now includes real observed evidence from a limited manual review, while the remaining case studies are prepared as templates and sample workflows for future evidence.
 
 ## Current Best Review Path
 
@@ -21,7 +21,7 @@ This portfolio demonstrates manual QA, bug reporting, usability review, support 
 
 | Case Study | What It Demonstrates | Evidence Status |
 | --- | --- | --- |
-| [01 - E-commerce QA Audit](case-studies/01-ecommerce-qa-audit/README.md) | End-to-end web QA planning, test cases, bug reports, usability review, and release-readiness judgment | Ready for real tested URL, screenshots, Loom, and actual results |
+| [01 - E-commerce QA Audit](case-studies/01-ecommerce-qa-audit/README.md) | End-to-end web QA planning, executed test cases, usability review, and release-readiness judgment | Evidence-backed limited manual QA case study completed for Automation Exercise |
 | [02 - Mobile Usability Review](case-studies/02-mobile-usability-review/README.md) | Mobile onboarding/navigation review, usability findings, and basic accessibility checks | Ready for real mobile app or mobile website evidence |
 | [03 - SaaS Support Triage](case-studies/03-saas-support-triage/README.md) | Sample support workflows, escalation notes, and QA/product follow-up | Sample workflows only, not real customer tickets |
 | [04 - DevTools/API Troubleshooting](case-studies/04-devtools-api-troubleshooting/README.md) | Browser console/network investigation, status-code notes, reproduction steps, and escalation report format | Ready for real DevTools observations |
