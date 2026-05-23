@@ -1,6 +1,6 @@
 # QA Job Tracker Template
 
-| Date | Company/Client | Role/Project | Source | Status | Portfolio Link Used | Follow-Up Date | Notes |
+| Date | Company/Project Owner | Role/Project | Source | Status | Portfolio Link Used | Follow-Up Date | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [date] | [company] | [role] | [job board/referral/platform] | [saved/applied/interview/follow-up/rejected] | [link] | [date] | [notes] |
 

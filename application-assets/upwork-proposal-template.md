@@ -1,6 +1,6 @@
 # Upwork QA Proposal Template
 
-Hi [Client Name],
+Hi [Project Owner Name],
 
 I can help test your [website/app/product] and document issues clearly. I focus on manual QA, user-flow testing, bug reports, usability feedback, and support-style troubleshooting notes.
 
